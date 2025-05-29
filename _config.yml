@@ -1,0 +1,4 @@
+title: Lab 4 Jekyll Site
+description: A Jekyll site for Lab 4 GitHub Actions pipeline
+baseurl: "/lab4-jekyll-site"
+url: "https://pravinteli.github.io"
