@@ -1,0 +1,16 @@
+name: Windows GitHub Action Demo
+
+on: [push]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Hello from PowerShell
+        shell: pwsh
+        run: |
+          Write-Host "Hello, Windows world!"
+          Write-Host "✅ Windows GitHub Action is working!"
